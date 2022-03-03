@@ -1,0 +1,18 @@
+@import "../core/variables";
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rock Salt", cursive;
+  background-color: var(--dark);
+  &__title {
+    color: var(--lightBlue);
+  }
+  &__navCont {
+    display: flex;
+    &--link {
+      color: var(--light);
+      font-family: "Alice", serif;
+    }
+  }
+}

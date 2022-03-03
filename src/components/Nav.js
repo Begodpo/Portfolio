@@ -1,13 +1,21 @@
 function Nav() {
   return (
     <>
-      <section>
-        <h1>Begoña del Pozo</h1>
-        <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Sobre mi</a>
-          <a href="#">Proyectos</a>
-          <a href="#">Contacto</a>
+      <section className="navBar">
+        <h1 className="navBar__title">Begoña del Pozo</h1>
+        <nav className="navBar__navCont">
+          <a className="navBar__navCont--link" href="#">
+            Inicio
+          </a>
+          <a className="navBar__navCont--link" href="#">
+            Sobre mi
+          </a>
+          <a className="navBar__navCont--link" href="#">
+            Proyectos
+          </a>
+          <a className="navBar__navCont--link" href="#">
+            Contacto
+          </a>
         </nav>
       </section>
     </>

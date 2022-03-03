@@ -1,5 +1,6 @@
 // Fichero src/components/App.js
-
+import "../styles/App.scss";
+import "../styles/components/Nav.scss";
 import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
