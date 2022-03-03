@@ -1,30 +1,29 @@
 // Fichero src/components/App.js
 
 import { Link, Route } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Nav from "./Nav";
+import Presentation from "./Presentation";
+import ProjectsList from "./ProjectsList";
 
 const App = () => {
   return (
-    <div>
-      <h2>Este título aparece siempre</h2>
-
-      <Route path="/contacto">
-        <h2>
-          Este título solo aparece cuando la usuaria entra en la página de
-          contacto
-        </h2>
-      </Route>
-
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Ir al inicio</Link>
-          </li>
-          <li>
-            <Link to="/contacto">Ir a contacto</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <>
+      <header>
+        <Nav />
+        <Presentation />
+      </header>
+      <main>
+        <About />
+        <ProjectsList />
+        <Contact />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 };
 
