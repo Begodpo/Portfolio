@@ -1,24 +1,22 @@
 // Fichero src/components/App.js
 import "../styles/App.scss";
-import "../styles/components/Nav.scss";
-import { Link, Route } from "react-router-dom";
+import "../styles/components/Header.scss";
+//import { Link, Route } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Nav from "./Nav";
-import Presentation from "./Presentation";
-import ProjectsList from "./ProjectsList";
+import Header from "./Header";
+import Projects from "./Projects";
 
 const App = () => {
   return (
     <>
       <header>
-        <Nav />
-        <Presentation />
+        <Header />
       </header>
       <main>
         <About />
-        <ProjectsList />
+        <Projects />
         <Contact />
       </main>
       <footer>

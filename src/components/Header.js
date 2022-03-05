@@ -1,29 +1,39 @@
+import linkedIn from "../images/linkedIn_icon.jpg";
+import gitHub from "../images/GitHub-Mark.png";
 function Header() {
   return (
     <>
-      <section className="navBar">
-        <h1 className="navBar__title">Begoña del Pozo</h1>
-        <nav className="navBar__navCont">
-          <a className="navBar__navCont--link" href="#">
+      <section className="header">
+        <h1 className="header__title">Begoña del Pozo</h1>
+        <nav className="header__nav">
+          <a className="header__nav--link" href="#">
             Inicio
           </a>
-          <a className="navBar__navCont--link" href="#">
+          <a className="header__nav--link" href="#">
             Sobre mi
           </a>
-          <a className="navBar__navCont--link" href="#">
+          <a className="header__nav--link" href="#">
             Proyectos
           </a>
-          <a className="navBar__navCont--link" href="#">
+          <a className="header__nav--link" href="#">
             Contacto
           </a>
         </nav>
       </section>
-      <section>
-        <p>¡Hola!</p>
-        <h2>
-          <span>Soy</span> Begoña del Pozo
+      <section class="hero">
+        <p className="hero__parag">¡Hola!</p>
+        <h2 className="hero__title">
+          <span className="span">Soy</span> Begoña del Pozo
         </h2>
-        <p>Junior Front-End Developer</p>
+        <p className="hero__parag">Junior Front-End Developer</p>
+        <div className="hero__icons">
+          <img
+            src={linkedIn}
+            alt="LinkedIn Icon"
+            className="hero__icons--link"
+          />
+          <img src={gitHub} alt="GitHub Icon" className="hero__icons--git" />
+        </div>
       </section>
     </>
   );
