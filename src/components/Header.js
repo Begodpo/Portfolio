@@ -1,4 +1,4 @@
-function Nav() {
+function Header() {
   return (
     <>
       <section className="navBar">
@@ -18,8 +18,15 @@ function Nav() {
           </a>
         </nav>
       </section>
+      <section>
+        <p>¡Hola!</p>
+        <h2>
+          <span>Soy</span> Begoña del Pozo
+        </h2>
+        <p>Junior Front-End Developer</p>
+      </section>
     </>
   );
 }
 
-export default Nav;
+export default Header;
