@@ -25,10 +25,12 @@
       padding: 1rem;
       border-radius: 0.5rem;
       text-transform: uppercase;
+      transition: color ease 0.7s;
     }
     &--link:hover {
       background-color: var(--lightBlue);
       color: var(--dark);
+      cursor: pointer;
     }
   }
 }
@@ -64,6 +66,11 @@
       width: 35px;
       margin: 2rem;
       border-radius: 0.5rem;
+    }
+    &--link:hover,
+    &--git:hover {
+      cursor: pointer;
+      transform: scale(1.5);
     }
   }
 }

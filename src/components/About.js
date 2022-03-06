@@ -6,13 +6,24 @@ function About() {
       <article className="aboutSection__article">
         <h3 className="aboutSection__article--title">Sobre mi</h3>
         <p className="aboutSection__article--text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
-          nunc sed erat ornare accumsan. Quisque dapibus ex ex, condimentum
-          imperdiet erat rhoncus sit amet. Vestibulum lobortis ex vitae auctor
-          elementum. Duis sed hendrerit dolor. Cras rhoncus orci tortor, quis
-          accumsan augue placerat vitae. Donec nec vehicula tellus. Vestibulum
-          et orci nec dui tincidunt gravida. Maecenas mattis nulla at metus
-          tempus, et mattis est accumsan.
+          A lo largo de 17 años me he especializado en la atención al cliente
+          dentro del sector del transporte y la mensajería en diferentes
+          empresas.
+        </p>
+        <p>
+          Decidí que quería cambiar de sector porque tenía inquietud por
+          aprender y hacer cosas diferentes. Fue entonces cuando descubrí el
+          mundo de la programación.
+        </p>
+        <p>
+          Además de las competencias técnicas aprendidas, a este sector creo que
+          puedo aportar las habilidades adquiridas en mis anteriores
+          experiencias, como pueden ser: el trabajo en equipo, la proactividad y
+          la gestión del estrés, ya que siempre he trabajado en entornos con un
+          ritmo muy alto de trabajo, pero sobre todo la ilusión por este cambio
+          y las ganas de mostrar lo aprendido, de utilizarlo en proyectos y
+          poder aportar a la empresa, que es mi objetivo. Además, me gusta
+          aprender y soy una persona muy responsable.
         </p>
         <button className="aboutSection__article--button">Descargar CV</button>
       </article>
