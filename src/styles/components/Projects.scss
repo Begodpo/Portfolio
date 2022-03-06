@@ -1,0 +1,55 @@
+@import "../core/variables";
+
+.projects {
+  font-family: "Alice", serif;
+  background-color: var(--light);
+  padding: 2rem 3rem;
+  color: var(--darkBlue);
+  &__title {
+    text-transform: uppercase;
+    font-family: "Rock Salt", cursive;
+    font-size: 1.7rem;
+  }
+  &__text {
+  }
+  &__article {
+    background-color: var(--lightBlue);
+    border-radius: 0.6rem;
+    margin-top: 1.6rem;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
+    box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
+    text-align: center;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    &--image {
+      width: 100%;
+    }
+    &--name {
+      text-transform: uppercase;
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    &--description {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    &--button {
+      margin: 0.5rem 2.5rem;
+      padding: 0.5rem;
+      width: 6rem;
+      background-color: var(--light);
+      border: none;
+      border-radius: 0.5rem;
+      font-family: "Alice", serif;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &--button:hover {
+      cursor: pointer;
+      transform: scale(1.4);
+      color: var(--light);
+      background-color: var(--darkBlue);
+    }
+  }
+}

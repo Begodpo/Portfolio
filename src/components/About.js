@@ -1,4 +1,5 @@
 import bego from "../images/foto-bego.jpg";
+
 function About() {
   return (
     <section className="aboutSection">
