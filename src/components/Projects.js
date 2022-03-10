@@ -9,7 +9,7 @@ import freelancer from "../images/web_freelancer.png";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects-section">
       <h3 className="projects__title">proyectos</h3>
       <p className="projects__text">
         Estos son algunos de los proyectos que he realizado hasta ahora:

@@ -1,8 +1,9 @@
 import bego from "../images/foto-bego.jpg";
+import cv from "../documents/begodpo_cv.pdf";
 
 function About() {
   return (
-    <section className="aboutSection">
+    <section className="aboutSection" id="about-section">
       <img className="aboutSection__image" src={bego} alt="Foto de Bego" />
       <article className="aboutSection__article">
         <h3 className="aboutSection__article--title">Sobre mi</h3>
@@ -26,7 +27,11 @@ function About() {
           poder aportar a la empresa, que es mi objetivo. Además, me gusta
           aprender y soy una persona muy responsable.
         </p>
-        <button className="aboutSection__article--button">Descargar CV</button>
+        <a href={cv} download="begodpo_cv.pdf">
+          <button className="aboutSection__article--button">
+            Descargar CV
+          </button>
+        </a>
       </article>
     </section>
   );
