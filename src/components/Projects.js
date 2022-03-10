@@ -24,8 +24,12 @@ function Projects() {
         <p className="projects__article--description">
           Proyecto individual. Buscador de personajes, creado con React.
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://begodpo.github.io/harry-potter/#/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/harry-potter">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -38,8 +42,12 @@ function Projects() {
           Proyecto en equipo. Código heredado y refactorizado. Proyecto completo
           con Node JS, Express JS y SQL.
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://awesome-cards-picateclas.herokuapp.com/#/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/inherited-code-back-end">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -52,8 +60,12 @@ function Projects() {
           Poyecto individual. Buscador de series de Anime, creado con HTML, SASS
           y JavaScript
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://begodpo.github.io/anime-series/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/anime-series">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -66,8 +78,12 @@ function Projects() {
           Proyecto en equipo. Web para crear tarjetas de visita personalizadas,
           con HTML, SASS y JavaScript.
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="http://beta.adalab.es/project-promo-o-module-2-team-5/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/awesome-profile-cards">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -80,8 +96,12 @@ function Projects() {
           Proyecto individual. Juego de Piedra, Papel y Tijeras, creado con
           HTML, CSS y JavaScript.
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://begodpo.github.io/rock-paper-scissors/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/rock-paper-scissors">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -94,8 +114,12 @@ function Projects() {
           Proyecto en equipo. Web colaborativa creada con HTML, CSS y SASS.
           Responsive.
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="http://beta.adalab.es/project-promo-o-module-1-team-7/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/web-colaborativa-adalabers">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -107,8 +131,12 @@ function Projects() {
         <p className="projects__article--description">
           Proyecto individual. Web responsive, creada con HTML, CSS y SASS
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://begodpo.github.io/anonymous-proxy/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="https://github.com/Begodpo/anonymous-proxy">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
       <article className="projects__article">
         <img
@@ -120,8 +148,12 @@ function Projects() {
         <p className="projects__article--description">
           Proyecto individual. Web responsive, creada con HTML y CSS
         </p>
-        <button className="projects__article--button">Demo</button>
-        <button className="projects__article--button">Repo</button>
+        <a href="https://webfreelancerbego.netlify.app/">
+          <button className="projects__article--button">Demo</button>
+        </a>
+        <a href="#">
+          <button className="projects__article--button">Repo</button>
+        </a>
       </article>
     </section>
   );
