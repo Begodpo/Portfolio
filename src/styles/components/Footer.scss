@@ -1,0 +1,11 @@
+@import "../core/variables";
+
+.footer {
+  background-color: var(--dark);
+  height: 10vh;
+  padding-top: 2.5rem;
+  &__text {
+    color: var(--lightBlue);
+    text-align: center;
+  }
+}

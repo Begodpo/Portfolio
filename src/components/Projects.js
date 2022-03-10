@@ -5,6 +5,7 @@ import harry from "../images/harry_potter.png";
 import inheriteCode from "../images/inherit_code.png";
 import adalabers from "../images/web_colaborativa_adalabers.png";
 import gameJs from "../images/rock_paper_scissors.png";
+import freelancer from "../images/web_freelancer.png";
 
 function Projects() {
   return (
@@ -105,6 +106,19 @@ function Projects() {
         <h4 className="projects__article--name">Anonymous Proxy</h4>
         <p className="projects__article--description">
           Proyecto individual. Web responsive, creada con HTML, CSS y SASS
+        </p>
+        <button className="projects__article--button">Demo</button>
+        <button className="projects__article--button">Repo</button>
+      </article>
+      <article className="projects__article">
+        <img
+          className="projects__article--image"
+          src={freelancer}
+          alt="Imagen del proyecto Web Freelancer"
+        />
+        <h4 className="projects__article--name">Web Freelancer</h4>
+        <p className="projects__article--description">
+          Proyecto individual. Web responsive, creada con HTML y CSS
         </p>
         <button className="projects__article--button">Demo</button>
         <button className="projects__article--button">Repo</button>

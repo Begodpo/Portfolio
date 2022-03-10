@@ -1,0 +1,16 @@
+@import "../core/variables";
+
+.contact {
+  background-color: var(--lightBlue);
+  padding: 2rem 3rem;
+  &__title {
+    text-transform: uppercase;
+    font-family: "Rock Salt", cursive;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  &__icon {
+    width: 40px;
+    margin: 2rem 3.1rem;
+  }
+}
