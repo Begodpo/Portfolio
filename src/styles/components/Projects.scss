@@ -9,9 +9,16 @@
     text-transform: uppercase;
     font-family: "Rock Salt", cursive;
     font-size: 1.7rem;
+    @media (min-width: 768px) {
+      font-size: 2.5rem;
+    }
   }
   &__text {
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
+
   &__article {
     background-color: var(--lightBlue);
     border-radius: 0.6rem;
@@ -21,22 +28,30 @@
     box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
     text-align: center;
     padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+
     &--image {
       width: 100%;
+      height: 55%;
     }
     &--name {
       text-transform: uppercase;
       font-size: 1.7rem;
       font-weight: bold;
       margin-top: 0.5rem;
+      @media (min-width: 768px) {
+        font-size: 2rem;
+      }
     }
     &--description {
       font-size: 1.5rem;
       margin-top: 0.5rem;
+      @media (min-width: 768px) {
+        font-size: 1.8rem;
+      }
     }
     &--button {
-      margin: 0.5rem 2.5rem;
-      padding: 0.5rem;
+      margin: 1rem 2.5rem;
+      padding: 1rem;
       width: 6rem;
       background-color: var(--light);
       border: none;
@@ -51,5 +66,13 @@
       color: var(--light);
       background-color: var(--darkBlue);
     }
+  }
+}
+
+.containerArticle {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 }

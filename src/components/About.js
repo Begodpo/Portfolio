@@ -12,12 +12,12 @@ function About() {
           dentro del sector del transporte y la mensajería en diferentes
           empresas.
         </p>
-        <p>
+        <p className="aboutSection__article--text">
           Decidí que quería cambiar de sector porque tenía inquietud por
           aprender y hacer cosas diferentes. Fue entonces cuando descubrí el
           mundo de la programación.
         </p>
-        <p>
+        <p className="aboutSection__article--text">
           Además de las competencias técnicas aprendidas, a este sector creo que
           puedo aportar las habilidades adquiridas en mis anteriores
           experiencias, como pueden ser: el trabajo en equipo, la proactividad y

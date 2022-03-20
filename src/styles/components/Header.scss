@@ -9,6 +9,10 @@
   background-color: rgba(0, 10, 11, 0.7);
   position: fixed;
   width: 100%;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
   &__title {
     color: var(--lightBlue);
     margin-top: 1.5rem;
@@ -50,13 +54,33 @@
   align-items: center;
   text-transform: uppercase;
   color: var(--light);
+  animation-duration: 3s;
+  animation-name: slidein;
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
   &__parag {
     font-size: 1.8rem;
+
+    @media (min-width: 768px) {
+      font-size: 2.2rem;
+    }
   }
   &__title {
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin: 4rem 0 2rem;
+    @media (min-width: 768px) {
+      font-size: 5rem;
+    }
   }
   &__icons {
     display: flex;
@@ -66,6 +90,9 @@
       width: 35px;
       margin: 2rem;
       border-radius: 0.5rem;
+      @media (min-width: 768px) {
+        width: 45px;
+      }
     }
     &--link:hover,
     &--git:hover {
