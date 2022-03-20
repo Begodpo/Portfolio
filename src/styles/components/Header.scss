@@ -9,13 +9,18 @@
   background-color: rgba(0, 10, 11, 0.7);
   position: fixed;
   width: 100%;
+
   @media (min-width: 768px) {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem 2rem;
   }
   &__title {
     color: var(--lightBlue);
     margin-top: 1.5rem;
+    @media (min-width: 768px) {
+      margin-top: auto;
+    }
   }
   &__nav {
     padding-bottom: 1rem;
@@ -30,6 +35,9 @@
       border-radius: 0.5rem;
       text-transform: uppercase;
       transition: color ease 0.7s;
+      @media (min-width: 768px) {
+        font-size: 1.6rem;
+      }
     }
     &--link:hover {
       background-color: var(--lightBlue);
