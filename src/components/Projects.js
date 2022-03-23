@@ -6,6 +6,7 @@ import inheriteCode from "../images/inherit_code.png";
 import adalabers from "../images/web_colaborativa_adalabers.png";
 import gameJs from "../images/rock_paper_scissors.png";
 import freelancer from "../images/web_freelancer.png";
+import tshirtStore from "../images/tshirtstore1.png";
 
 function Projects() {
   return (
@@ -152,6 +153,23 @@ function Projects() {
             Proyecto individual. Web responsive, creada con HTML y CSS
           </p>
           <a href="https://webfreelancerbego.netlify.app/">
+            <button className="projects__article--button">Demo</button>
+          </a>
+          <a href="#">
+            <button className="projects__article--button">Repo</button>
+          </a>
+        </article>
+        <article className="projects__article">
+          <img
+            className="projects__article--image"
+            src={tshirtStore}
+            alt="Imagen del proyecto Front-End Store"
+          />
+          <h4 className="projects__article--name">Front-End Store</h4>
+          <p className="projects__article--description">
+            Proyecto individual. Web responsive, creada con HTML y CSS
+          </p>
+          <a href="https://tshirtstore1.netlify.app/">
             <button className="projects__article--button">Demo</button>
           </a>
           <a href="#">
