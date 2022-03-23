@@ -30,7 +30,6 @@
     box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
     text-align: center;
     padding: 1.5rem 1.5rem 0.5rem 1.5rem;
-    height: 100%;
 
     &--image {
       width: 100%;
@@ -54,7 +53,7 @@
       margin-top: 0.5rem;
       @media (min-width: 768px) {
         font-size: 1.8rem;
-        height: 8rem;
+        height: 7rem;
       }
       @media (min-width: 1200px) {
         font-size: 1.5rem;
@@ -72,7 +71,7 @@
       font-weight: bold;
       text-transform: uppercase;
       @media (min-width: 768px) {
-        width: 10.3rem;
+        width: 10.1rem;
       }
       @media (min-width: 1200px) {
         margin-right: 2rem;
