@@ -6,6 +6,7 @@
   justify-content: flex-start;
   align-items: center;
   font-family: "Alice", serif;
+  line-height: 3rem;
   height: auto;
   padding: 2rem 3rem;
   background-image: linear-gradient(
@@ -13,6 +14,9 @@
     var(--lightBlue) 0%,
     var(--light)
   );
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 
   &__image {
     height: 140px;
@@ -26,8 +30,10 @@
       height: 200px;
     }
     @media (min-width: 1200px) {
-      width: 290px;
-      height: 300px;
+      order: 2;
+      width: 350px;
+      height: 350px;
+      margin-right: 10rem;
     }
   }
   &__article {
@@ -47,8 +53,13 @@
     }
     &--text {
       margin-top: 1.6rem;
+      font-size: 1.8rem;
       @media (min-width: 768px) {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        line-height: 4rem;
+      }
+      @media (min-width: 1200px) {
+        width: 90%;
       }
     }
     &--button {
@@ -73,7 +84,7 @@
         width: 30%;
       }
       @media (min-width: 1200px) {
-        width: 10%;
+        width: 20%;
       }
     }
     &--button:hover {
